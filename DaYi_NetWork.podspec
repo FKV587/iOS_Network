@@ -110,7 +110,6 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-  s.resource_bundles = { 'DaYi_LoginModule' => ['DaYi_LoginModule/DaYi_LoginModule/DaYi_login.bundle']}
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
