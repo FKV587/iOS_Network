@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-  # s.prefix_header_file = 'xxx/PrefixHeader.pch'
+  s.prefix_header_file = 'DaYi_NetWork/DaYi_NetWork/DaYi_NetWork.pch'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
