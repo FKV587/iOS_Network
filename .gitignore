@@ -1,0 +1,7 @@
+DaYi_NetWork.xcodeproj/xcuserdata/
+DaYi_NetWork.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+DaYi_NetWork.xcodeproj/project.xcworkspace/xcuserdata/

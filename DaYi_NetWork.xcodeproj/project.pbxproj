@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2D7A7622C1B465003D50F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D7A7522C1B465003D50F5 /* AppDelegate.m */; };
+		2F2D7A7922C1B465003D50F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D7A7822C1B465003D50F5 /* ViewController.m */; };
+		2F2D7A7C22C1B465003D50F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2D7A7A22C1B465003D50F5 /* Main.storyboard */; };
+		2F2D7A7E22C1B467003D50F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2D7A7D22C1B467003D50F5 /* Assets.xcassets */; };
+		2F2D7A8122C1B467003D50F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2D7A7F22C1B467003D50F5 /* LaunchScreen.storyboard */; };
+		2F2D7A8422C1B467003D50F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D7A8322C1B467003D50F5 /* main.m */; };
+		2F2D7A8E22C1B467003D50F5 /* DaYi_NetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D7A8D22C1B467003D50F5 /* DaYi_NetWorkTests.m */; };
+		2F2D7A9922C1B467003D50F5 /* DaYi_NetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D7A9822C1B467003D50F5 /* DaYi_NetWorkUITests.m */; };
+		2F2D7AA922C1B9F4003D50F5 /* DYNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D7AA722C1B9F3003D50F5 /* DYNetWork.m */; };
+		2F2D7AAD22C1BAFB003D50F5 /* DYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2D7AAC22C1BAFB003D50F5 /* DYBaseModel.m */; };
+		64356B1D0B815BF40F77D469 /* Pods_DaYi_NetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C201CA75F0756011D5679C8D /* Pods_DaYi_NetWork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F2D7A8A22C1B467003D50F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2D7A6922C1B465003D50F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F2D7A7022C1B465003D50F5;
+			remoteInfo = DaYi_NetWork;
+		};
+		2F2D7A9522C1B467003D50F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2D7A6922C1B465003D50F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F2D7A7022C1B465003D50F5;
+			remoteInfo = DaYi_NetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B986850477C385B10626872 /* Pods-DaYi_NetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaYi_NetWork.debug.xcconfig"; path = "Target Support Files/Pods-DaYi_NetWork/Pods-DaYi_NetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		2F2D7A7122C1B465003D50F5 /* DaYi_NetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaYi_NetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2D7A7422C1B465003D50F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F2D7A7522C1B465003D50F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F2D7A7722C1B465003D50F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F2D7A7822C1B465003D50F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F2D7A7B22C1B465003D50F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F2D7A7D22C1B467003D50F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F2D7A8022C1B467003D50F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F2D7A8222C1B467003D50F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2D7A8322C1B467003D50F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F2D7A8922C1B467003D50F5 /* DaYi_NetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaYi_NetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2D7A8D22C1B467003D50F5 /* DaYi_NetWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaYi_NetWorkTests.m; sourceTree = "<group>"; };
+		2F2D7A8F22C1B467003D50F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2D7A9422C1B467003D50F5 /* DaYi_NetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaYi_NetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2D7A9822C1B467003D50F5 /* DaYi_NetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaYi_NetWorkUITests.m; sourceTree = "<group>"; };
+		2F2D7A9A22C1B467003D50F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2D7AA722C1B9F3003D50F5 /* DYNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNetWork.m; sourceTree = "<group>"; };
+		2F2D7AA822C1B9F4003D50F5 /* DYNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNetWork.h; sourceTree = "<group>"; };
+		2F2D7AAB22C1BAFB003D50F5 /* DYBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBaseModel.h; sourceTree = "<group>"; };
+		2F2D7AAC22C1BAFB003D50F5 /* DYBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBaseModel.m; sourceTree = "<group>"; };
+		2F2D7AAE22C1BFB2003D50F5 /* DaYi_NetWork.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaYi_NetWork.pch; sourceTree = "<group>"; };
+		2F3CC71922D71FD800784983 /* DaYi_NetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaYi_NetWork.h; sourceTree = "<group>"; };
+		45A57A39DA04D53DCA7D5420 /* Pods-DaYi_NetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaYi_NetWork.release.xcconfig"; path = "Target Support Files/Pods-DaYi_NetWork/Pods-DaYi_NetWork.release.xcconfig"; sourceTree = "<group>"; };
+		C201CA75F0756011D5679C8D /* Pods_DaYi_NetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaYi_NetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F2D7A6E22C1B465003D50F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64356B1D0B815BF40F77D469 /* Pods_DaYi_NetWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2D7A8622C1B467003D50F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2D7A9122C1B467003D50F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2D7A6822C1B465003D50F5 = {
+			isa = PBXGroup;
+			children = (
+				2F2D7A7322C1B465003D50F5 /* DaYi_NetWork */,
+				2F2D7A8C22C1B467003D50F5 /* DaYi_NetWorkTests */,
+				2F2D7A9722C1B467003D50F5 /* DaYi_NetWorkUITests */,
+				2F2D7A7222C1B465003D50F5 /* Products */,
+				AE6D2AA385D1B62790BBF864 /* Pods */,
+				49EF98ACB6723C088B16FF19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F2D7A7222C1B465003D50F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F2D7A7122C1B465003D50F5 /* DaYi_NetWork.app */,
+				2F2D7A8922C1B467003D50F5 /* DaYi_NetWorkTests.xctest */,
+				2F2D7A9422C1B467003D50F5 /* DaYi_NetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F2D7A7322C1B465003D50F5 /* DaYi_NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2F2D7AA622C1B4D3003D50F5 /* DaYi_NetWork */,
+				2F2D7A7422C1B465003D50F5 /* AppDelegate.h */,
+				2F2D7A7522C1B465003D50F5 /* AppDelegate.m */,
+				2F2D7A7722C1B465003D50F5 /* ViewController.h */,
+				2F2D7A7822C1B465003D50F5 /* ViewController.m */,
+				2F2D7A7A22C1B465003D50F5 /* Main.storyboard */,
+				2F2D7A7D22C1B467003D50F5 /* Assets.xcassets */,
+				2F2D7A7F22C1B467003D50F5 /* LaunchScreen.storyboard */,
+				2F2D7A8222C1B467003D50F5 /* Info.plist */,
+				2F2D7A8322C1B467003D50F5 /* main.m */,
+			);
+			path = DaYi_NetWork;
+			sourceTree = "<group>";
+		};
+		2F2D7A8C22C1B467003D50F5 /* DaYi_NetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F2D7A8D22C1B467003D50F5 /* DaYi_NetWorkTests.m */,
+				2F2D7A8F22C1B467003D50F5 /* Info.plist */,
+			);
+			path = DaYi_NetWorkTests;
+			sourceTree = "<group>";
+		};
+		2F2D7A9722C1B467003D50F5 /* DaYi_NetWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F2D7A9822C1B467003D50F5 /* DaYi_NetWorkUITests.m */,
+				2F2D7A9A22C1B467003D50F5 /* Info.plist */,
+			);
+			path = DaYi_NetWorkUITests;
+			sourceTree = "<group>";
+		};
+		2F2D7AA622C1B4D3003D50F5 /* DaYi_NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2F2D7AAA22C1BAEF003D50F5 /* Base */,
+				2F2D7AA822C1B9F4003D50F5 /* DYNetWork.h */,
+				2F2D7AA722C1B9F3003D50F5 /* DYNetWork.m */,
+				2F2D7AAE22C1BFB2003D50F5 /* DaYi_NetWork.pch */,
+				2F3CC71922D71FD800784983 /* DaYi_NetWork.h */,
+			);
+			path = DaYi_NetWork;
+			sourceTree = "<group>";
+		};
+		2F2D7AAA22C1BAEF003D50F5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2F2D7AAB22C1BAFB003D50F5 /* DYBaseModel.h */,
+				2F2D7AAC22C1BAFB003D50F5 /* DYBaseModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		49EF98ACB6723C088B16FF19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C201CA75F0756011D5679C8D /* Pods_DaYi_NetWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE6D2AA385D1B62790BBF864 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B986850477C385B10626872 /* Pods-DaYi_NetWork.debug.xcconfig */,
+				45A57A39DA04D53DCA7D5420 /* Pods-DaYi_NetWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F2D7A7022C1B465003D50F5 /* DaYi_NetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2D7A9D22C1B467003D50F5 /* Build configuration list for PBXNativeTarget "DaYi_NetWork" */;
+			buildPhases = (
+				6AFDFD72978549613D89B74A /* [CP] Check Pods Manifest.lock */,
+				2F2D7A6D22C1B465003D50F5 /* Sources */,
+				2F2D7A6E22C1B465003D50F5 /* Frameworks */,
+				2F2D7A6F22C1B465003D50F5 /* Resources */,
+				CB70A11C092B697F413C0821 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaYi_NetWork;
+			productName = DaYi_NetWork;
+			productReference = 2F2D7A7122C1B465003D50F5 /* DaYi_NetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F2D7A8822C1B467003D50F5 /* DaYi_NetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2D7AA022C1B467003D50F5 /* Build configuration list for PBXNativeTarget "DaYi_NetWorkTests" */;
+			buildPhases = (
+				2F2D7A8522C1B467003D50F5 /* Sources */,
+				2F2D7A8622C1B467003D50F5 /* Frameworks */,
+				2F2D7A8722C1B467003D50F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F2D7A8B22C1B467003D50F5 /* PBXTargetDependency */,
+			);
+			name = DaYi_NetWorkTests;
+			productName = DaYi_NetWorkTests;
+			productReference = 2F2D7A8922C1B467003D50F5 /* DaYi_NetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F2D7A9322C1B467003D50F5 /* DaYi_NetWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2D7AA322C1B467003D50F5 /* Build configuration list for PBXNativeTarget "DaYi_NetWorkUITests" */;
+			buildPhases = (
+				2F2D7A9022C1B467003D50F5 /* Sources */,
+				2F2D7A9122C1B467003D50F5 /* Frameworks */,
+				2F2D7A9222C1B467003D50F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F2D7A9622C1B467003D50F5 /* PBXTargetDependency */,
+			);
+			name = DaYi_NetWorkUITests;
+			productName = DaYi_NetWorkUITests;
+			productReference = 2F2D7A9422C1B467003D50F5 /* DaYi_NetWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F2D7A6922C1B465003D50F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = FuKai;
+				TargetAttributes = {
+					2F2D7A7022C1B465003D50F5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2F2D7A8822C1B467003D50F5 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F2D7A7022C1B465003D50F5;
+					};
+					2F2D7A9322C1B467003D50F5 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F2D7A7022C1B465003D50F5;
+					};
+				};
+			};
+			buildConfigurationList = 2F2D7A6C22C1B465003D50F5 /* Build configuration list for PBXProject "DaYi_NetWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F2D7A6822C1B465003D50F5;
+			productRefGroup = 2F2D7A7222C1B465003D50F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F2D7A7022C1B465003D50F5 /* DaYi_NetWork */,
+				2F2D7A8822C1B467003D50F5 /* DaYi_NetWorkTests */,
+				2F2D7A9322C1B467003D50F5 /* DaYi_NetWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F2D7A6F22C1B465003D50F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2D7A8122C1B467003D50F5 /* LaunchScreen.storyboard in Resources */,
+				2F2D7A7E22C1B467003D50F5 /* Assets.xcassets in Resources */,
+				2F2D7A7C22C1B465003D50F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2D7A8722C1B467003D50F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2D7A9222C1B467003D50F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AFDFD72978549613D89B74A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DaYi_NetWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB70A11C092B697F413C0821 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DaYi_NetWork/Pods-DaYi_NetWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DaYi_NetWork/Pods-DaYi_NetWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DaYi_NetWork/Pods-DaYi_NetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F2D7A6D22C1B465003D50F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2D7A7922C1B465003D50F5 /* ViewController.m in Sources */,
+				2F2D7AA922C1B9F4003D50F5 /* DYNetWork.m in Sources */,
+				2F2D7A8422C1B467003D50F5 /* main.m in Sources */,
+				2F2D7AAD22C1BAFB003D50F5 /* DYBaseModel.m in Sources */,
+				2F2D7A7622C1B465003D50F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2D7A8522C1B467003D50F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2D7A8E22C1B467003D50F5 /* DaYi_NetWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2D7A9022C1B467003D50F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2D7A9922C1B467003D50F5 /* DaYi_NetWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F2D7A8B22C1B467003D50F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F2D7A7022C1B465003D50F5 /* DaYi_NetWork */;
+			targetProxy = 2F2D7A8A22C1B467003D50F5 /* PBXContainerItemProxy */;
+		};
+		2F2D7A9622C1B467003D50F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F2D7A7022C1B465003D50F5 /* DaYi_NetWork */;
+			targetProxy = 2F2D7A9522C1B467003D50F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F2D7A7A22C1B465003D50F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F2D7A7B22C1B465003D50F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F2D7A7F22C1B467003D50F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F2D7A8022C1B467003D50F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F2D7A9B22C1B467003D50F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F2D7A9C22C1B467003D50F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F2D7A9E22C1B467003D50F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B986850477C385B10626872 /* Pods-DaYi_NetWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				GCC_PREFIX_HEADER = DaYi_NetWork/DaYi_NetWork/DaYi_NetWork.pch;
+				INFOPLIST_FILE = DaYi_NetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-NetWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F2D7A9F22C1B467003D50F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A57A39DA04D53DCA7D5420 /* Pods-DaYi_NetWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				GCC_PREFIX_HEADER = DaYi_NetWork/DaYi_NetWork/DaYi_NetWork.pch;
+				INFOPLIST_FILE = DaYi_NetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-NetWork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F2D7AA122C1B467003D50F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = DaYi_NetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-NetWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaYi_NetWork.app/DaYi_NetWork";
+			};
+			name = Debug;
+		};
+		2F2D7AA222C1B467003D50F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = DaYi_NetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-NetWorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaYi_NetWork.app/DaYi_NetWork";
+			};
+			name = Release;
+		};
+		2F2D7AA422C1B467003D50F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = DaYi_NetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-NetWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaYi_NetWork;
+			};
+			name = Debug;
+		};
+		2F2D7AA522C1B467003D50F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YY3N9PT3;
+				INFOPLIST_FILE = DaYi_NetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fk.com.DaYi-NetWorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaYi_NetWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F2D7A6C22C1B465003D50F5 /* Build configuration list for PBXProject "DaYi_NetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2D7A9B22C1B467003D50F5 /* Debug */,
+				2F2D7A9C22C1B467003D50F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2D7A9D22C1B467003D50F5 /* Build configuration list for PBXNativeTarget "DaYi_NetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2D7A9E22C1B467003D50F5 /* Debug */,
+				2F2D7A9F22C1B467003D50F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2D7AA022C1B467003D50F5 /* Build configuration list for PBXNativeTarget "DaYi_NetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2D7AA122C1B467003D50F5 /* Debug */,
+				2F2D7AA222C1B467003D50F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2D7AA322C1B467003D50F5 /* Build configuration list for PBXNativeTarget "DaYi_NetWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2D7AA422C1B467003D50F5 /* Debug */,
+				2F2D7AA522C1B467003D50F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F2D7A6922C1B465003D50F5 /* Project object */;
+}
